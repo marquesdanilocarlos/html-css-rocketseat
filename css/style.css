@@ -29,10 +29,16 @@ a, span {
     color: #FF9900;
 }
 
-p {
+p,footer{
     color: #7D7987;
     font-size: 14px;
     line-height: 28px;
+}
+
+.line {
+    width: 568px;
+    border-top: 1px solid #ECEFF2;
+    margin: 0 auto 8px;
 }
 
 #footer a + a{
