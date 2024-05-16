@@ -1,5 +1,56 @@
+body {
+    color:#3F3D56;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
 .container{
     width: 626px;
     text-align: center;
     margin: 64px auto;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+
+p {
+    text-align: center;
+}
+
+span {
+    color: #EE24FF;
+}
+
+a {
+    text-decoration: none;
+    color:#3F3D56;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+    height: 176px;
+    background: url("../images/Wave.png") no-repeat;
+    background-position: center bottom;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li{
+    display: inline;
+}
+
+footer li + li{
+    margin-left: 28px;
+}
+
+footer .line{
+    width: 568px;
+    border-top: 1px solid #ECEFF2;
+    margin: 0 auto 8px;
 }
