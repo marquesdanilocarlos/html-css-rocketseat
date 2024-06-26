@@ -1,8 +1,62 @@
 body {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .page {
     width: 1000px;
     margin: 65px auto;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+a {
+    color: #1F1534;
+    text-decoration: none;
+}
+
+#navigation ul {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 48px;
+
+    li a:hover {
+        font-weight: bolder;
+    }
+}
+
+h1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+    color: #1F1534;
+
+    span {
+        color: #89C5CC;
+        font-weight: bold;
+    }
+}
+
+p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+button {
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+}
+
+#footer {
+    font-weight: bold;
 }
