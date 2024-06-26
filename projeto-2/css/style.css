@@ -62,8 +62,26 @@ main {
     justify-content: space-between;
 }
 
-.text p{
+.text p {
     margin: 40px 0 40px;
+}
+
+.whats {
+    color: #FFF;
+    font-weight: bold;
+    background: #69B99D;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 32px 15px;
+    cursor: pointer;
+
+    &:hover {
+        background: #467969;
+    }
 }
 
 #footer {
