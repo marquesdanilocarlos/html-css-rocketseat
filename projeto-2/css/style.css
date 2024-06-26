@@ -55,8 +55,14 @@ button {
     display: flex;
     gap: 48px;
 
-    li a:hover {
-        font-weight: bolder;
+    li {
+        a {
+            opacity: 0.5;
+            &:hover {
+                font-weight: bolder;
+                opacity: 1;
+            }
+        }
     }
 }
 
