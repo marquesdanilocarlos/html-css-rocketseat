@@ -3,34 +3,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.page {
-    width: 1000px;
-    margin: 65px auto;
-}
-
-#header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 55px;
-}
-
 a {
     color: #1F1534;
     text-decoration: none;
-}
-
-#navigation ul {
-    font-family: 'Mulish', sans-serif;
-    font-weight: bold;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    gap: 48px;
-
-    li a:hover {
-        font-weight: bolder;
-    }
 }
 
 h1 {
@@ -57,6 +32,42 @@ button {
     font-family: "Open Sans", sans-serif;
 }
 
+.page {
+    width: 1000px;
+    margin: 65px auto;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+#navigation ul {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 48px;
+
+    li a:hover {
+        font-weight: bolder;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text p{
+    margin: 40px 0 40px;
+}
+
 #footer {
     font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
 }
