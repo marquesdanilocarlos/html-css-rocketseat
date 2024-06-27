@@ -14,11 +14,10 @@ body {
   padding-top: 65px;
 }
 
-.nav {
-  display: flex;
+.header {
+display: flex;
   justify-content: space-between;
   align-items: center;
-
   margin-bottom: 55px;
 }
 
