@@ -194,3 +194,7 @@ footer {
         }
     }
 }
+
+input:invalid, select:invalid {
+    border: 1px solid #FF1010;
+}
