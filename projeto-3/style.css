@@ -167,3 +167,30 @@ label {
         width: 100%;
     }
 }
+
+footer {
+    background: #F0F0F4;
+    padding: 40px 64px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0  8px 8px;
+    border-top: 1px solid #D6D6D6;
+    margin-bottom: 100px;
+
+    .btn {
+        height: 56px;
+        background: #04D361;
+        border-radius: 8px;
+        border: none;
+
+        font-family: Archivo, sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFF;
+
+        &:hover {
+            background: #047537;
+        }
+    }
+}
