@@ -62,7 +62,7 @@ ul {
         font-size: 2.4rem;
         line-height: 3.2rem;
         color: #090039;
-        width: 25.7rem;
+        max-width: 30rem;
         display: flex;
         gap: 3.8rem;
 
@@ -73,6 +73,34 @@ ul {
             letter-spacing: -2px;
             display: block;
             min-width: 4.5rem;
+        }
+    }
+
+    & + li {
+        margin-top: 3.2rem;
+    }
+}
+
+@media (min-width: 700px) {
+    body {
+        padding: 8rem;
+    }
+
+    main {
+        display: flex;
+        gap: 10rem;
+        max-width: 102rem;
+
+        & > div {
+            max-width: 48.4rem;
+        }
+    }
+
+    ul {
+        li {
+            gap: 5.3rem;
+            max-width: 450px;
+            align-items: center;
         }
     }
 }
