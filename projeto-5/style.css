@@ -19,6 +19,16 @@ body {
     color: var(--primary-color);
 }
 
+main {
+    max-width: 32rem;
+    margin-inline: auto;
+    padding: 5.6rem 4rem;
+}
+
+img {
+    width: 100%;
+}
+
 button {
     font-family: 'Source Serif 4', sans-serif;
     color: var(--white);
@@ -31,10 +41,6 @@ button {
 h1, h2 {
     font-size: 2.8rem;
     line-height: 3.6rem;
-}
-
-h2 {
-    text-decoration: underline;
 }
 
 p, li, strong {
