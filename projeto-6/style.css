@@ -1,0 +1,11 @@
+.app {
+    display: grid; /*inline-grid*/
+}
+
+span {
+    border: 1px solid blue;
+}
+
+.app > div {
+    border: 1px solid red;
+}
