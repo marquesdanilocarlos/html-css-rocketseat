@@ -1,6 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .app {
     display: grid; /*inline-grid*/
-    grid-template-columns: repeat(3, 1fr) /*1fr 1fr 1fr*/;
+    grid-template-columns: repeat(2, 1fr) /*1fr 1fr 1fr*/;
+    grid-template-rows: 200px 1fr 3fr 1fr;
+
+    height: 100vh;
 }
 
 span {
