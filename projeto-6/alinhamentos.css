@@ -13,6 +13,10 @@
     width: 100vw;
     background: #2F2E41;
 
+    justify-content: space-between; /*Alinha no eixo x*/
+    align-content: end; /*Alinha no eixo y*/
+
+    place-content: center; /*Junção dos alinhamentos nos eixos x e y*/
 }
 
 .grid > div {
