@@ -15,10 +15,14 @@
 
     justify-content: space-between; /*Alinha no eixo x*/
     align-content: end; /*Alinha no eixo y*/
+    place-content: start; /*Junção dos alinhamentos nos eixos x e y*/
 
-    place-content: center; /*Junção dos alinhamentos nos eixos x e y*/
+    justify-items: end;
+    align-items: start;
+    place-items: center;
 }
 
 .grid > div {
     background: #42D3FF;
+    border: 1px solid red;
 }
