@@ -26,3 +26,9 @@
     background: #42D3FF;
     border: 1px solid red;
 }
+
+.grid > div:nth-child(2) {
+    justify-self: start;
+    align-self: end;
+    place-self: stretch;
+}
