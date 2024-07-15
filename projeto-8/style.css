@@ -13,3 +13,20 @@
 body {
     font-size: 1.6rem;
 }
+
+#app {
+    display: grid;
+    grid-template-rows: max-content 1fr max-content;
+    height: 100vh;
+}
+
+.container {
+    padding: 1.6rem 3.2rem;
+    margin: 0 auto;
+    width: min(112rem, 100%);
+}
+
+main {
+    background: lightgray;
+    overflow-y: scroll;
+}
