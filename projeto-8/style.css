@@ -36,6 +36,35 @@ body {
     margin: 0 auto;
 }
 
+
+header, nav, nav ul {
+    display: flex;
+    align-items: center;
+    gap: 7.2rem;
+    font-weight: 700;
+}
+
+header form {
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;
+    color: var(--base-color-gray-300);
+    font-size: 1.8rem;
+
+    & > li.active {
+        color: var(--base-color-gray-900);
+    }
+}
+
+.avatar {
+    width: 4.2rem;
+    height: 4.2rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 main {
     background: var(--base-color-gray-100);
     overflow-y: scroll;
@@ -43,4 +72,10 @@ main {
     &::-webkit-scrollbar {
         display: none;
     }
+}
+
+footer p {
+    text-align: center;
+    padding: 1.6rem;
+    font-weight: 600;
 }
