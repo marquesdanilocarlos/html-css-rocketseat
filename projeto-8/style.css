@@ -14,6 +14,8 @@
     --base-color-gray-300: #8d8d99;
     --base-color-gray-900: #202024;
 
+    font-family: 'Mulish', sans-serif;
+
 }
 
 body {
@@ -30,12 +32,15 @@ body {
 
 .container {
     padding: 1.6rem 3.2rem;
-    margin: 0 auto;
     width: min(112rem, 100%);
+    margin: 0 auto;
 }
 
 main {
     background: var(--base-color-gray-100);
     overflow-y: scroll;
 
+    &::-webkit-scrollbar {
+        display: none;
+    }
 }
