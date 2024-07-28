@@ -1,10 +1,11 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 :root {
     font-family: 'Alice', sans-serif;
-    line-height: 150%;
 
     --bg-color: #573824;
     --text-color-primary: #291B1A;
@@ -27,6 +28,11 @@ h2 {
     font-size: 24px;
 }
 
+h1, h2 {
+    margin-bottom: 4px;
+    line-height: 150%;
+}
+
 #page {
     width: 800px;
     padding: 24px;
@@ -37,4 +43,20 @@ h2 {
 
 .main-image {
     border-radius: 16px;
+}
+
+main {
+    padding: 24px;
+}
+
+section + section {
+    margin-top: 24px;
+}
+
+#about p + p {
+    margin-top: 12px;
+}
+
+ul {
+    padding-left: 24px;
 }
