@@ -29,6 +29,7 @@ body {
 h1 {
     color: var(--text-color-primary);
     font-size: 3.6rem;
+    margin-bottom: 4.0rem;
 }
 
 h2 {
@@ -37,13 +38,46 @@ h2 {
 }
 
 h3 {
-    color: var(--text-color-tertiary);
+    color: var(--text-color-secondary);
     font-size: 2.8rem;
+    margin-bottom: 0.8rem;
+}
+
+h5 {
+    margin-top: 3.0rem;
+    font-size: 1.6rem;
 }
 
 p {
     color: var(--text-color-secondary);
     font-size: 1.6rem;
+    line-height: 1.3;
+}
+
+figcaption {
+    margin-top: 2.4rem;
+}
+
+main {
+    border-bottom: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
+    padding: 6.4rem 0 4.0rem;
+}
+
+ul {
+    padding-left: 3.2rem;
+    li {
+        font-weight: bold;
+    }
+}
+
+footer {
+    text-align: center;
+    padding-top: 4.0rem;
+
+    p:first-child {
+        margin-bottom: 6.4rem;
+    }
 }
 
 .container {
@@ -52,12 +86,37 @@ p {
     margin: 0 auto;
 }
 
-.cover {
+.cover, .emphasis-img {
     max-width: 100%;
     border-radius: 2.8rem;
+}
+
+.cover {
+    margin: 6.4rem 0 2.0rem;
 }
 
 .headline {
     font-size: 1.6rem;
     color: var(--text-headline-color);
+    margin-bottom: 0.8rem;
+}
+
+.header {
+    padding-bottom: 4.0rem;
+}
+
+.accent-blue {
+    color: var(--accent-blue);
+}
+
+.accent-pink {
+    color: var(--accent-pink);
+}
+
+.accent-purple {
+    color: var(--accent-purple);
+}
+
+.accent-orange {
+    color: var(--accent-orange);
 }
