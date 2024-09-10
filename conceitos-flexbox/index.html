@@ -9,22 +9,19 @@
     .container {
         border: 1px dashed;
         display: flex;
-        /*flex-direction: row;
-        justify-content: space-between;*/
-        height: 50vh;
-        flex-direction: row;
-        gap: 20px;
-        align-items: center;
-        flex-wrap: wrap;
-        align-content: space-between;
+        flex-direction: column;
+        /*justify-content: space-between;
+        flex-wrap: nowrap;
+        align-content: space-between;*/
     }
 
     .item {
-        --hue: 0;
-        border: 1px solid red;
-        text-align: center;
         background-color: hsl(var(--hue), 100%, 70%);
-        width: 500px;
+        /*--hue: 0;*/
+        /*border: 1px solid red;*/
+        /*text-align: center;*/
+        /*width: 500px;*/
+        flex-basis: 200px;
     }
 </style>
 <body>
