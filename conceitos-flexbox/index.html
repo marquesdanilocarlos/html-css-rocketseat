@@ -12,16 +12,21 @@
     .container {
         border: 1px dashed;
         display: flex;
-        /*flex-direction: column;
         height: 50vh;
+        /*flex-direction: column;
         justify-content: space-between;
-        flex-wrap: nowrap;
         align-content: space-between;*/
+
+        flex-wrap: wrap;
+        row-gap: 2rem;
+        column-gap: 2rem;
+
     }
 
     .item {
         background-color: hsl(var(--hue), 100%, 70%);
-        flex: 1 1 auto;
+        flex: 0 1 500px;
+        align-content: stretch;
         /*
         flex-shrink: 0;
         flex-basis: 300px;
@@ -38,6 +43,7 @@
 
     .item:nth-child(5) {
         order: 2;
+        align-self: center;
     }
 </style>
 <body>
