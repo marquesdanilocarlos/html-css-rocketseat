@@ -6,8 +6,10 @@
     <title>Grid</title>
     <style>
         #app {
+            height: 100vh;
             display: grid; /*inline-grid*/
-            grid-template-columns: repeat(4, 1fr);
+            /*grid-template-columns: repeat(4, 1fr);*/
+            grid-template-rows: 2fr 4fr 3fr 5fr;
         }
         #app > div {
             border: 1px solid red;
