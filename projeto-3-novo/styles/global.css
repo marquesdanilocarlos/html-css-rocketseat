@@ -21,6 +21,13 @@
     --text-sm: 400 14px/160% var(--font-family);
 }
 
+body {
+    color: var(--text-color-primary);
+    background-color: var(--bg-color);
+
+    font: var(--text);
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -33,9 +40,20 @@ h1, h2, h3 {
     font: inherit;
 }
 
-body {
-    color: var(--text-color-primary);
-    background-color: var(--bg-color);
+ul {
+    list-style: none;
+}
 
-    font: var(--text);
+.grid {
+    display: grid;
+}
+
+.grid-col {
+    grid-auto-flow: column;
+}
+
+.container {
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: 32px;
 }
