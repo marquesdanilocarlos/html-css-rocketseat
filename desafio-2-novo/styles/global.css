@@ -17,17 +17,45 @@
     --gray-500: #C0C4CE;
     --gray-600: #E2E4E9;
 
-    --asap-font: 'Asap', sans-serif;
-    --inconsolata-font: 'Inconsolata', sans-serif;
-    --maven-font: 'Maven Pro', sans-serif;
+    --asap-font: "Asap", sans-serif;
+    --inconsolata-font: "Inconsolata", sans-serif;
+    --maven-font: "Maven Pro", sans-serif;
 
     --title-lg: bold 56px/120% var(--asap-font);
     --title-md: bold 24px/120% var(--asap-font);
     --title-sm: bold 16px/120% var(--asap-font);
 
-    --subtitle: regular 20px/120% var(--inconsolata-font);
+    --subtitle: 100 20px/120% var(--inconsolata-font);
 
-    --text-md: regular 16px/140% var(--maven-font);
-    --text-sm: regular 14px/140% var(--maven-font);
+    --text-md: 400 16px/140% var(--maven-font);
+    --text-sm: 400 14px/140% var(--maven-font);
 
+}
+
+body {
+    font: var(--text-md);
+}
+
+.title-lg {
+    font: var(--title-lg);
+}
+
+.title-md {
+    font: var(--title-md);
+}
+
+.title-sm {
+    font: var(--title-sm);
+}
+
+.subtitle {
+    font: var(--subtitle);
+}
+
+.text-md {
+    font: var(--text-md);
+}
+
+.text-sm {
+    font: var(--text-sm);
 }
