@@ -1,9 +1,39 @@
+.photo {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    margin-inline: auto;
+    margin-bottom: 56px;
+
+    img {
+        max-block-size: 100%;
+        max-inline-size: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        border-radius: 100%;
+        box-shadow: 0 0 0 1px var(--red);
+        border: 5px solid var(--gray-200);
+    }
+
+    &::before {
+        content: "";
+        height: 36px;
+        width: 36px;
+        background: url("../assets/icons/code.png") no-repeat;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
 .skill-tag {
-    padding-block: 8px;
-    padding-inline: 16px;
+    padding: 8px 16px;
     background-color: var(--gray-300);
-    border-radius: 50%;
+    border-radius: 40px;
     min-height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .project-card {
