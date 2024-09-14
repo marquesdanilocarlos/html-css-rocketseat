@@ -34,6 +34,8 @@
 
 body {
     font: var(--text-md);
+    background-color: var(--gray-200);
+    color: var(--gray-400);
 }
 
 .title-lg {
@@ -58,4 +60,24 @@ body {
 
 .text-sm {
     font: var(--text-sm);
+}
+
+.text-red {
+    color: var(--red);
+}
+
+.text-purple {
+    color: var(--purple);
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-green {
+    color: var(--green);
+}
+
+.text-yellow {
+    color: var(--yellow);
 }
