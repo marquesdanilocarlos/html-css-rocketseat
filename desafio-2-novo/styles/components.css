@@ -40,8 +40,18 @@
     background-color: var(--gray-300);
     border-radius: 12px;
     color: inherit;
-    padding-inline: 12px;
+    padding: 12px;
     min-height: 280px;
+
+    img {
+        border-radius: 8px;
+        max-width: 100%;
+    }
+
+    .title-sm {
+        margin-top: 24px;
+        margin-bottom: 8px;
+    }
 }
 
 .services-card {

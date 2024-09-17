@@ -1,8 +1,7 @@
-.header {
+#header {
     background: url("../assets/img/bg_intro.png") no-repeat;
     background-size: cover;
     padding: 120px 0 60px;
-    display: grid;
     justify-items: center;
 }
 
@@ -29,4 +28,17 @@
     justify-content: center;
     gap: 16px;
     margin-top: 80px;
+}
+
+#projects {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 144px;
+}
+
+.project-title {
+    margin-top: 72px;
+    margin-bottom: 56px;
+    text-align: center;
+
 }
