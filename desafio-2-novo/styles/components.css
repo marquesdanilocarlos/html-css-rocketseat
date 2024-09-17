@@ -55,12 +55,21 @@
 }
 
 .services-card {
+    max-width: 280px;
     background: transparent;
     border: 1px solid var(--gray-200);
     border-radius: 12px;
     color: inherit;
     padding: 20px;
     min-height: 155px;
+
+    img {
+        padding-bottom: 20px;
+    }
+
+    .title-sm {
+        padding-bottom: 8px;
+    }
 }
 
 .social-link {
