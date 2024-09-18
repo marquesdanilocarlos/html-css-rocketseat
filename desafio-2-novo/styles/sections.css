@@ -60,3 +60,14 @@
         grid-column: 1/4;
     }
 }
+
+#footer {
+    padding: 128px 0 200px;
+    background: url("../assets/img/bg_contacts.png") 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.social-links {
+    justify-content: center;
+    row-gap: 16px;
+}

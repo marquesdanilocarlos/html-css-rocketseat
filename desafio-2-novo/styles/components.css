@@ -76,5 +76,25 @@
     padding: 20px;
     border-radius: 8px;
     background-color: var(--gray-300);
+    border: 1px solid var(--gray-300);
+    min-width: 400px;
     min-height: 68px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+
+    &::before {
+        content: '';
+        width: 20px;
+        height: 20px;
+        background: url("../assets/icons/arrow.svg") center no-repeat;
+        position: absolute;
+        right: 20px;
+    }
+
+    &:hover {
+        border: 1px solid var(--blue);
+        color: var(--blue);
+    }
 }
