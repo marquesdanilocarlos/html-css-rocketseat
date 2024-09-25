@@ -20,14 +20,50 @@
             </div>
             <h1>Formulário de Matrícula</h1>
             <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
+            <form action="" method="post" enctype="multipart/form-data">
+                <fieldset class="child-info">
+                    <legend>Informações da criança</legend>
+                    <div class="input-wrapper">
+                        <label for="fullName">Nome completo</label>
+                        <input id="fullName" name="fullName" type="text" placeholder="Nome da criança">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="birthDate">Data de nascimento</label>
+                        <input id="birthDate" name="birthDate" type="date">
+                    </div>
+
+                    <div class="select-wrapper">
+                        <label for="gender">Sexo</label>
+                        <select name="gender" id="gender">
+                            <option value="female">Feminino</option>
+                            <option value="male">Masculino</option>
+                            <option value="na">Prefiro não responder</option>
+                        </select>
+                    </div>
+
+                    <div class="textarea-wrapper">
+                        <label for="medicalInfo">Informações médicas</label>
+                        <textarea name="medicalInfo" id="medicalInfo" cols="30" rows="10"
+                                  placeholder="A criança possui alguma condição médica que a escola deve estar ciente?"></textarea>
+                    </div>
+
+                    <div class="droparea-wrapper">
+                        <input type="file" id="birthFile" name="birthFile">
+                        <img src="assets/icons/cloud-upload.svg" alt="Upload">
+                        <p>Clique aqui para <br>
+                            selecionar os arquivos</p>
+                    </div>
+                </fieldset>
+            </form>
         </div>
     </main>
     <aside>
         <div class="aside-container">
             <header>
-                <img src="assets/img/logo.png" alt="Estrelas do Amanhã" >
+                <img src="assets/img/logo.png" alt="Estrelas do Amanhã">
                 <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
-                <p>Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.</p>
+                <p>Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e
+                    estimulante.</p>
             </header>
             <img src="assets/img/illustration.png" alt="Ilustração">
         </div>
