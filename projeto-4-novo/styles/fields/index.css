@@ -59,4 +59,29 @@ input {
         border: 1px solid var(--stroke-default);
         color: var(--text-primary);
     }
+
+    &:invalid {
+        border: 0.2rem solid var(--semantic-error);
+
+    }
+
+    & + small {
+        font: var(--text-sm);
+        color: var(--text-input-legend);
+        display: inline-block;
+        margin-top: 0.4rem;
+    }
+
+    &[required] + .error {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        font: var(--text-sm);
+        color: var(--semantic-error);
+        margin-top: 0.4rem;
+    }
+
+    &:not(:focus):valid + .error {
+        display: none;
+    }
 }
