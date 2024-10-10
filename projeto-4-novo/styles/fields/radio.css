@@ -4,7 +4,7 @@ label + .radio-wrapper {
 
 .radio-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1.2rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(12.0rem, 1fr));
     gap: 1.6rem;
 }
 
