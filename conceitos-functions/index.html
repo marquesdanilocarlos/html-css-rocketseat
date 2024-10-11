@@ -11,8 +11,10 @@
             border: 1px solid red;
             transform: translate(100px, 200px) rotate(40deg) scale(3);
             font-size: clamp(1rem, 7vw, 4rem);
-            background: #006699;
+            background: color-mix(in hsl, hsl(10 100% 50%), hsl(60 100% 50%));
             filter: brightness(2) contrast(1) drop-shadow(1rem 1rem 1rem salmon);
+
+            color: rgb(0, 108, 81); /*hsl()*/
             &:hover {
                 filter: opacity(0.7) invert();
             }
