@@ -6,10 +6,11 @@
     <title>Functions</title>
     <style>
         .box {
-            height: 3rem;
-            width: 3rem;
+            height: calc(30px + 1rem);
+            width: /*max(100%, 90vh)*/min(100%, 10vh);
             border: 1px solid red;
             transform: translate(100px, 200px) rotate(40deg) scale(3);
+            font-size: clamp(1rem, 7vw, 4rem);
         }
     </style>
 </head>
