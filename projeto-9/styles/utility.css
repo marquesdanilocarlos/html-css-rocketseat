@@ -4,7 +4,7 @@ Classes utilitárias Mobile
 .container {
     --max-width: 375px;
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
-    border:1px solid violet;
+    border: 1px solid violet;
     margin-inline: auto;
 }
 
@@ -31,6 +31,19 @@ Classes utilitárias Mobile
 .even-columns {
     display: grid;
     gap: 1rem;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.grid {
+    display: grid;
 }
 
 
