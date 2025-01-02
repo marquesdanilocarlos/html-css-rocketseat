@@ -10,3 +10,4 @@
 @import "features.css" (width >= 80em);
 @import "pricing.css";
 @import "download.css";
+@import "footer.css";
